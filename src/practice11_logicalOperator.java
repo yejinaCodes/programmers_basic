@@ -2,9 +2,7 @@ public class practice11_logicalOperator {
     public boolean isAgeDiscountable(int age) {
         boolean isDiscount = false;
         // 아래 빈칸을 채워 코드를 완성하세요.
-        if(
-                age <= 19 || age >= 60
-        ) {
+        if(age <= 19 || age >= 60) {
             isDiscount = true;
         }
         else {
